@@ -1,0 +1,57 @@
+[
+    {
+        "name": "category",
+        "tests": [
+            {
+                "network": "Under 35mbps",
+                "metrics": {
+                    "duration": {
+                        "avg": "482.94ms",
+                        "min": "0s",
+                        "med": "481.5ms",
+                        "max": "673.79ms",
+                        "p90": "494.26ms",
+                        "p95": "500.25ms"
+                    },
+                    "status": {
+                        "passRate": "99%",
+                        "passCount": 5338,
+                        "failCount": 21,
+                        "result": "fail"
+                    },
+                    "responseTime": {
+                        "passRate": "94%",
+                        "passCount": 5086,
+                        "failCount": 273,
+                        "result": "fail"
+                    }
+                }
+            },
+            {
+                "network": "Under 1mbps",
+                "metrics": {
+                    "duration": {
+                        "avg": "613.69ms",
+                        "min": "487.5ms",
+                        "med": "564.95ms",
+                        "max": "2.87s",
+                        "p90": "756.69ms",
+                        "p95": "855.29ms"
+                    },
+                    "status": {
+                        "passRate": "100%",
+                        "passCount": 25,
+                        "failCount": 543,
+                        "result": "pass"
+                    },
+                    "responseTime": {
+                        "passRate": "0%",
+                        "passCount": 25,
+                        "failCount": 543,
+                        "result": "fail"
+                    }
+                }
+            }
+        ]
+    }
+]
