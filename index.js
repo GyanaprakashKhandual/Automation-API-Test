@@ -4,7 +4,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: [],
+  origin: ['https://gyanaprakashkhandual.github.io/API_Reports_jewellary/', 'http://127.0.0.1:5500/Repo/API_Reports/index.html'],
   credentials: true
 }));
 app.use(express.json());
